@@ -38,3 +38,4 @@ JsUser.greetinTwo = function(){
     console.log(`Hello my name is ${this.name} and I am going to ${this.loaction}`)
 }
 console.log(JsUser.greetinTwo())
+// console.log(typeof JsUser)
