@@ -16,7 +16,7 @@ console.log(allHeros)
 const fruits1 = ["Manngo", "Apple", "Banana"]
 const vegetables1 = ["Bendi", "Potato", "Pumpkin"]
 const supplements = ["whey","creatine"]
-const nutritions = [...fruits1,...vegetables1,...supplements]
+const nutritions = [...fruits1,...vegetables1,...supplements]//spread
 console.log(nutritions)
 
 
