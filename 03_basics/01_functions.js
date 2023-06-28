@@ -20,12 +20,12 @@ function subTwoNum(num1,num2) {
 }
 console.log("Result is" ,9-3);// return result
 
-function isUserLoggedIn(username){
+function isUserLoggedIn(username = "xyz"){
     if(!username){
         console.log("Please enter your username")
-        return
+        return 
     }
-    return(username)
+    return `${username} just logged in`
 
 }
 console.log(isUserLoggedIn())
