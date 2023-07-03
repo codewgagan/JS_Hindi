@@ -13,7 +13,7 @@ let userEmail; //means undefined
 
 const id = Symbol(123)
 const userId = Symbol(123)//uniqueness
-console.log(id===userId);
+console.log(id===userId);//false
 
 // # non-primitive data types(Reference)
 //Arrays, Objects, Functions
@@ -25,14 +25,13 @@ let myObj ={
     age: 20
 }
 
-console.log(typeof heros)
-console.log(typeof myObj)
+console.log(typeof heros)//object
+console.log(typeof myObj)//object
 
 const myFunction = function () {
     console.log("Hello world");
-    
 }
 
-console.log(myFunction)
-console.log(typeof myFunction)
+console.log(myFunction)//[output: Function: myFunction]
+console.log(typeof myFunction)//function
 
