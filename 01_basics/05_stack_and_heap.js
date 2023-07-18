@@ -18,6 +18,7 @@ let ramesh = {
 
 let userThree = ramesh
 userThree.name = "gauri"
-// console.log(gagan)
+
+console.log(typeof gagan)//object
 console.log(gagan.id)//1
 console.log(userThree.name);//gauri
