@@ -1,6 +1,9 @@
 "use strict"; //treat all JS code Newer version
 let a=7
+console.log(typeof a);//number
 
+const isTrue = true
+console.log(typeof isTrue);//boolean
 
 //number = 2
 //boolean = true/false
@@ -9,6 +12,5 @@ let a=7
 //undefined = value is not defined
 //symbol = uniqueness
 
-//object
-console.log(typeof null)
-console.log(typeof undefined)
+console.log(typeof null)//type of null is object
+console.log(typeof undefined)//type of undefined is undefined
