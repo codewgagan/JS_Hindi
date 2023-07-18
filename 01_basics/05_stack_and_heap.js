@@ -3,8 +3,8 @@ let anotherName = myYtname;
 
 anotherName = "code smashers"
 
-console.log(myYtname);
-console.log(anotherName);
+console.log(myYtname);//code with Gagan
+console.log(anotherName);//code smashers
 
 let gagan = {
     name:"gagan",
@@ -19,5 +19,5 @@ let ramesh = {
 let userThree = ramesh
 userThree.name = "gauri"
 // console.log(gagan)
-console.log(gagan.id)
-console.log(userThree.name);
+console.log(gagan.id)//1
+console.log(userThree.name);//gauri
