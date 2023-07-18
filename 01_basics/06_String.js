@@ -39,15 +39,15 @@ const tagline = "MDN - Resources for developers, by developers";
 // console.log(tagLine.indexOf('for'))
 
 
-const firstOccurrence = tagline.indexOf("developers");
-const secondOccurrence = tagline.indexOf("developers", firstOccurrence + 1);
+const firstOccurrence = tagline.indexOf("developers");//20
+const secondOccurrence = tagline.indexOf("developers", firstOccurrence + 1);//35
 
-console.log(firstOccurrence); 
-console.log(secondOccurrence);
+console.log(firstOccurrence); //20
+console.log(secondOccurrence);//35
 
-const data = "MY naMe iS gaGaN"
-console.log(data.toLowerCase());
-console.log(data.toUpperCase());
+const data = "MY name iS gaGaN"
+console.log(data.toLowerCase());//my name is gagan
+console.log(data.toUpperCase());//MY NAME IS GAGAN
 let dataUpdated = data.replace("gaGaN","ramesh")
-console.log(dataUpdated)
+console.log(dataUpdated)//MY name iS ramesh
 
