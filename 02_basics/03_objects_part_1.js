@@ -17,25 +17,25 @@ const JsUser = {
     isLoggedIn:false,
     lastLoginDays:["Monday","Saturday"]
 }
-// console.log(JsUser.email)  //first method to access object values
-// console.log(JsUser["email"])  //second method to access object values
-// console.log(JsUser["full name"])
-// console.log(typeof mySym)//type of mySym is Symbol
-// console.log(JsUser[mySym])//prints Symbol value
+console.log(JsUser.email)  //first method to access object values
+console.log(JsUser["email"])  //second method to access object values
+console.log(JsUser["full name"])
+console.log(typeof mySym)//type of mySym is Symbol
+console.log(JsUser[mySym])//prints Symbol value
 
 
 JsUser.loaction = "Bengaluru";
 // Object.freeze(JsUser);
 // JsUser.loaction = "New york"
-console.log(JsUser)//print JsUser all key and values
+console.log(JsUser)//prints JsUser all key and values
 
 JsUser.greeting = function(){
-    console.log("Hello Js user");
+    console.log("Hello Js user");//[Function (anonymous)]
 }
 console.log(JsUser.greeting)
 
 JsUser.greetinTwo = function(){
-    console.log(`Hello my name is ${this.name} and I am going to ${this.loaction}`)
+    console.log(`Hello my name is ${this.name} and I am going to ${this.loaction}`)//Hello my name is Gagan and I am going to Bengaluru
 }
-console.log(JsUser.greetinTwo())
-// console.log(typeof JsUser)
+console.log(JsUser.greetinTwo())//undefined
+console.log(typeof JsUser)//object
