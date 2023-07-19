@@ -3,16 +3,25 @@ const realLifeHeros = ["Sandeep","Ranveer","Ritesh"]
 
 const allHeros = myHeros.concat(realLifeHeros)
 
-console.log(myHeros)
-console.log(realLifeHeros)
+console.log(myHeros)//[ 'Krishna', 'Balaram', 'Hanuman', 'Shiv', 'Arjun' ]
+console.log(realLifeHeros)//[ 'Sandeep', 'Ranveer', 'Ritesh' ]
 
 // myHeros.push(realLifeHeros)
 
-console.log(allHeros)
+console.log(allHeros)//[
+//     'Krishna', 'Balaram',
+//     'Hanuman', 'Shiv',
+//     'Arjun',   'Sandeep',
+//     'Ranveer', 'Ritesh'
+//   ]
+
 // console.log(realLifeHeros)
 
 
 //spread method
+//Spread syntax looks exactly like rest syntax. In a way, spread syntax is the opposite of rest syntax. Spread syntax "expands" an 
+array into its elements, while rest syntax collects multiple elements and "condenses" them into a single element.
+
 const fruits1 = ["Manngo", "Apple", "Banana"]
 const vegetables1 = ["Bendi", "Potato", "Pumpkin"]
 const supplements = ["whey","creatine"]
