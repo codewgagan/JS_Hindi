@@ -18,7 +18,8 @@ for(let i = 1; i<10; i++){
     // console.log(i)
     if (i===5) {
         console.log(`5 is detected`)
-        break;
+        break;//The break statement "jumps out" of a loop.
     }
     console.log('The value is' + i)
 }
+//continue - The continue statement "jumps over" one iteration in the loop.
