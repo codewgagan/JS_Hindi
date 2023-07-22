@@ -10,3 +10,10 @@ for (const key in myObj) {
 }
 
 
+//We can Iterate Array using for in loop
+//Object is not iterable using for in loop
+const programmingLang = ["Python", "CPP", "JavaScript", "Ruby"]
+
+for(const key in programmingLang){
+    console.log(`key${key} is ${programmingLang[key]}`)
+}
