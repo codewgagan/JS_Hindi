@@ -22,19 +22,41 @@
 
     //History of events
     //attachEvent()
-    //jquery()
+    //jQuery() - on
 
-    //Topics to Learn
-        // type(keyboard and mouse), timestamp, defaultPrevented, traget, toElement, srcElement, currentTarget, clientX, clientY, screenX, screenY, altKey, ctrlKey, shiftKey, keyCode
+    //Topics to Learn in Events
+        // type(keyboard and mouse events), timestamp, defaultPrevented, target, toElement, srcElement, currentTarget, clientX, clientY, screenX, screenY, altKey, ctrlKey, shiftKey, keyCode
 
     //add event listener
-        document.getElementById('owl').addEventListener('click',function(e){
-            console.log(e)
-            alert('Hi, I am owl')
-        },false)
+        //document.getElementById('images').addEventListener('click',function(e){
+           // console.log("Clicked inside the ul")
+            // alert('Hi, I am owl')
+        //}, false)//third parameter is by default false
 
-        // event Propogition
+        // document.getElementById('owl').addEventListener('click', function(e){
+        //     console.log("owl clicked")
+        //     e.stopPropagation()
+        // }, false)
+
+        // document.getElementById('google').addEventListener('click',function(e){
+        //     e.preventDefault()
+        //     console.log("Google")
+
+        // }, false)
+
+        // Two context of event Propogition.
         // 1.event bubbling(bottom to top) 2.event capturing(top to bottom)
 
+        document.querySelector('#images').addEventListener('click', function(e){
+            console.log(e.target.tagName);
+            if(e.target.tagName === 'IMG'){
+                console.log(e.target.id);
+                let removeImg = e.target.parentNode
+                removeImg.remove()
+                // removeImg.parentNode.removeChild(removeImg)
+            }
+        })
+
     </script>
+    
 </html>
