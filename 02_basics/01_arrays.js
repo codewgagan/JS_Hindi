@@ -29,4 +29,4 @@ console.log("B", myArr)
 
 const myArr2 = myArr.splice(1,3) //manipulates the original array and changes the elements of an original array
 console.log("C", myArr)
-console.log(myArr)
+console.log(myArr2)
