@@ -3,7 +3,7 @@
 
 // 1.String, 2.Number, 3.Boolean, 4.null, 5.undefined, 6.symbol, 7.BigInt
 
-
+ 
 const score=11
 const scoreValue = 11.11 //It is also a number not a float
 
