@@ -34,4 +34,4 @@ const myFunction = function () {
 
 console.log(myFunction)//[output: Function: myFunction]
 console.log(typeof myFunction)//function
-console.log("Data Types Summary ");
+console.log("Data Types");
