@@ -6,7 +6,7 @@ var accountPassword = "123456"
 accountCity = "Banglore"
 accountEmail = "ramesh@gamil.com"
 accountPassword = "787324"
-let accountState;//undefined
+let accountState;//undefined 
 
 console.log(accountId);
 console.table([accountId, accountEmail, accountCity, accountPassword, accountState])
