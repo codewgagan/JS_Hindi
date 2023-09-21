@@ -5,6 +5,13 @@ let valueInNumber = Number (score);
 console.log( typeof valueInNumber)//number
 console.log(valueInNumber)//NaN
 
+let score1 = null;
+console.log(score1)//null
+console.log(typeof score1)//object
+let newScore1 = Number (score1)
+console.log(newScore1);//0
+console.log(typeof newScore1);//number
+
 let boolean = 1
 let booleanValue = Boolean (boolean)
 console.log(typeof boolean)//number
