@@ -8,7 +8,7 @@ console.log(name[0])//Retrieving a specific string character
 console.log(name[name.length -1 ])//To retrieve the last character of any string
 
 
-//It returns true if the string contains the substring, and false otherwise.
+//It returns true if the string contains the substring, otherwise false.
 
 const godName = "KrishnaDev"
 console.log(godName)
